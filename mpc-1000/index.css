@@ -1,0 +1,179 @@
+html {
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  padding: 5rem;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+#mpc {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 1rem;
+  width: 100%;
+}
+
+#buttons-and-pads-and-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+
+#buttons-and-knobs {
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+  justify-content: space-between;
+  width: 43.75%;
+}
+
+#buttons-and-screen {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 2rem 2rem 0 2rem;
+}
+
+#combo-row {
+  align-items: flex-end;
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  height: 10rem;
+  justify-content: space-evenly;
+  padding: 1rem;
+  width: 100%;
+}
+
+#knobs {
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+#buttons,
+#buttons-big,
+#buttons-mixed {
+  align-items: center;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  justify-content: space-evenly;
+  padding: 0 10%;
+}
+
+#sliders {
+  align-items: center;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 6.25%;
+}
+
+#pads {
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+#pads-row {
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  height: 25%;
+}
+
+#buttons-column {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+#knob {
+  aspect-ratio: 1;
+  border-radius: 50%;
+  height: 5rem;
+}
+
+#knob-big {
+  aspect-ratio: 1;
+  border-radius: 50%;
+  height: 100%;
+}
+
+#pad {
+  aspect-ratio: 1;
+  box-sizing: border-box;
+  width: 8rem;
+}
+
+#slider {
+  height: 50%;
+  width: 80%;
+}
+
+#button {
+  height: 0.5rem;
+  width: 2rem;
+}
+
+#button-big {
+  height: 1.5rem;
+  width: 2rem;
+}
+
+#screen {
+  display: flex;
+  height: 6rem;
+}
+
+.atom {
+  border: 3px solid black;
+  border-radius: 3px;
+  display: flex;
+}
+
+.molecule {
+  border: 6px solid black;
+  border-radius: 6px;
+  display: flex;
+}
+
+.organism {
+  border: 12px solid black;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  border: 24px solid black;
+  border-radius: 24px;
+  display: flex;
+}
