@@ -7,7 +7,9 @@ html {
 }
 
 body {
+  align-items: center;
   display: flex;
+  justify-content: center;
   height: 100%;
   margin: 0;
   width: 100%;
@@ -104,7 +106,7 @@ body {
   display: flex;
   gap: 1rem;
   justify-content: space-evenly;
-  height: 25%;
+  height: 8rem;
 }
 
 #buttons-column {
@@ -128,9 +130,19 @@ body {
 }
 
 #pad {
-  aspect-ratio: 1;
+  align-items: center;
   box-sizing: border-box;
-  width: 8rem;
+  display: flex;
+  justify-content: center;
+  width: 13rem;
+  height: 10rem;
+}
+
+#pad > span {
+  font-size: 15rem;
+  line-height: 100%;
+  text-align: center;
+  vertically-align: middle;
 }
 
 #slider {
@@ -159,10 +171,29 @@ body {
   display: flex;
 }
 
+.box {
+  background-color: #83a598;
+  border: none;
+}
+
+.cidro {
+  color: #83a598;
+}
+
+.gruvbox {
+  color: #cc241d;
+}
+
 .molecule {
   border: 6px solid black;
   border-radius: 6px;
   display: flex;
+}
+
+.onetoo {
+  border: none;
+  /* color: #d79921; */
+  color: #1d2021;
 }
 
 .organism {
